@@ -4,7 +4,7 @@ import classes from './Homepage.module.css'
 const description = (
   <>
     <p>
-      The Stroop effect is a psychological phenomena that describes
+      The Stroop effect is a psychological phenomenon that describes
       the delay in reaction between congruent and incongruent stimuli.
       <br />
       <br />
