@@ -4,14 +4,17 @@ import classes from './Homepage.module.css'
 const description = (
   <>
     <p>
+      <a href="https://github.com/iKoogar/stroop-tester">stroop-tester github</a>
+      <br />
+      <br />
+ 
+      <hr />
       The Stroop effect is a psychological phenomenon that describes
       the delay in reaction between congruent and incongruent stimuli.
       <br />
       <br />
-      This webapp will demonstrate the Stroop effect by comparing the
-      amount of time required to read out the color of words whose verbal
-      color and visual color <b>match</b> to the amount of time required to read
-      out the color of words whose verbal color and visual color <b>do not match</b>.
+      This webapp will demonstrate the Stroop effect with a short series of tests that should show 
+      the difference in reaction speeds depending on the congruency of words and colors.
       <br />
       <br />
       For example,
@@ -21,10 +24,17 @@ const description = (
       should be read as &quot;blue&quot;.
       <br />
       <br />
-      The first test will have matching colors and words, and the second test will have mismatched colors and words.
+      The first test will have matching colors and words.
+      <br />
+      The second test will have colors paired with random words.
+      <br />
+      The third test will have colors paired with random color words. 
       <br />
       <br />
       Click the &quot;get started&quot; button when you are ready and then click the &quot;next&quot; button when you are done with each test
+      <br />
+      <br />
+      Note: you may need to resize your browser window to properly see the tests.
     </p>
   </>
 )

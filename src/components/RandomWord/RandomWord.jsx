@@ -1,5 +1,3 @@
-import classes from './RandomWord.module.css'
-
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -17,25 +15,41 @@ const words = [
     "white",
     "black",
     "brown"
-]
+];
 
-const getRandomWord = (consistent, sameIndex) => {
-    if (consistent){
+var randomWords = require('random-words');
+
+const getRandomWord = (test, sameIndex) => {
+    if (test == "1"){
         return words[sameIndex];
     }
+
+    else if (test == "2"){
+        return randomWords({exactly: 1, minLength: 3, maxLength: 7})
+    }
+
+    var randInt = getRandomInt(0, words.length - 1);
+    return words[randInt];
+}
+
+const getRandomColor = (test, sameIndex) => {
+    if (test == "1"){
+        return words[sameIndex];
+    }
+
     var randInt = getRandomInt(0, words.length - 1);
     return words[randInt];
 }
 
 const RandomWord = (props) => {
     var sameIndex = 0; 
-    if(props.consistent){
+    if(props.test == "1"){
         sameIndex = getRandomInt(0, words.length - 1);
     }
 
     return(
         <>
-            <font color={getRandomWord(props.consistent, sameIndex)}>{getRandomWord(props.consistent, sameIndex)}</font>
+            <font color={getRandomColor(props.test, sameIndex)}>{getRandomWord(props.test, sameIndex)}</font>
         </>
     )
 }

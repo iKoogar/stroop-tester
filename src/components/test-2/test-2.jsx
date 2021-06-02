@@ -30,19 +30,19 @@ const Test2 = (props) => {
     return (
       <>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={false}/></Paper>
+          <Paper className={classes.paper}><RandomWord test="2"/></Paper>
         </Grid>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={false}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="2"/></Paper>
         </Grid>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={false}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="2"/></Paper>
         </Grid>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={false}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="2"/></Paper>
         </Grid>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={false}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="2"/></Paper>
         </Grid>
       </>
     );
@@ -71,7 +71,7 @@ const Test2 = (props) => {
       </div>
 
       <Link to= {{
-      pathname: "/results",
+      pathname: "/test-3",
       test2Props:{
         time1: props.location.test1Props.time1,
         time2: t2

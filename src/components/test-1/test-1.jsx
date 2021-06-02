@@ -30,19 +30,19 @@ const Test1 = (props) => {
     return (
       <>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={true}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="1"/></Paper>
         </Grid>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={true}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="1"/></Paper>
         </Grid>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={true}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="1"/></Paper>
         </Grid>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={true}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="1"/></Paper>
         </Grid>
         <Grid item xs={2}>
-          <Paper className={classes.paper}><RandomWord consistent={true}/></Paper>
+        <Paper className={classes.paper}><RandomWord test="1"/></Paper>
         </Grid>
       </>
     );
