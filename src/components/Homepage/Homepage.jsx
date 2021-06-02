@@ -33,7 +33,11 @@ const description = (
       should be read as &quot;blue&quot;.
       <br />
       <br />
-      Click the &quot;get started&quot; button when you are ready and then click the &quot;next&quot; button when you are done with each test.
+      Click the &quot;get started&quot; button when you are ready.
+      <br />
+      Read the <b>color</b> of all 25 words out loud (or at least in your head) as quickly as you can. 
+      <br />
+      When you are finished, click the &quot;next&quot; button to continue to the next test.
       <br />
       <br />
       Note: you may need to resize your browser window to properly see the tests.
