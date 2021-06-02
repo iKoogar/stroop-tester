@@ -17,13 +17,6 @@ const description = (
       the difference in reaction speeds depending on the congruency of words and colors.
       <br />
       <br />
-      For example,
-      <font color=" red"><b> RED </b></font>
-      should be read as &quot;red&quot;, but
-      <font color=" blue"><b> RED </b></font>
-      should be read as &quot;blue&quot;.
-      <br />
-      <br />
       The first test will have matching colors and words.
       <br />
       The second test will have colors paired with random words.
@@ -31,7 +24,16 @@ const description = (
       The third test will have colors paired with random color words. 
       <br />
       <br />
-      Click the &quot;get started&quot; button when you are ready and then click the &quot;next&quot; button when you are done with each test
+      For example,
+      <font color=" red"><b> RED </b></font>
+      should be read as &quot;red&quot;,
+      <font color=" yellow"><b> CAR </b></font>
+      should be read as &quot;yellow&quot;, and
+      <font color=" blue"><b> RED </b></font>
+      should be read as &quot;blue&quot;.
+      <br />
+      <br />
+      Click the &quot;get started&quot; button when you are ready and then click the &quot;next&quot; button when you are done with each test.
       <br />
       <br />
       Note: you may need to resize your browser window to properly see the tests.
