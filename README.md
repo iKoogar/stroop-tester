@@ -1,5 +1,7 @@
 # Final Project for introduction to Cognitive Science - COGS 2101
 
+Live version probably up [HERE](http://50.116.50.126:5000/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
